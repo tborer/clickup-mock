@@ -206,7 +206,17 @@ body {
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    background: url('https://i.pravatar.cc/150?img=47') center/cover;
+    background-color: var(--bg-surface-hover);
+    border: 1px solid var(--border-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar svg {
+    width: 20px;
+    height: 20px;
+    color: var(--text-secondary);
 }
 
 .user-info {
